@@ -52,7 +52,6 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="CalculatorPrivateAssembly.cs" />
     <Compile Include="FrmBasicCalculator.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -90,6 +89,12 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\e6d6d0663a89645d6427289b61f86e90.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\CalculatorPrivateAssembly\CalculatorPrivateAssembly.csproj">
+      <Project>{34f00926-9b0c-4b16-a10c-742799a3cb74}</Project>
+      <Name>CalculatorPrivateAssembly</Name>
+    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
