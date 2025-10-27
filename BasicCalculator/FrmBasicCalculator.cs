@@ -16,5 +16,10 @@ namespace BasicCalculator
         {
             InitializeComponent();
         }
+
+        private void FrmBasicCalculator_Load(object sender, EventArgs e)
+        {
+
+        }
     }
 }
